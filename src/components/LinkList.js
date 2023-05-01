@@ -10,7 +10,6 @@ query{
     fundacion
   }
 }
-
 `
 ;
 const LinkList = () => {

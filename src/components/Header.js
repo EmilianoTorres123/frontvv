@@ -22,13 +22,13 @@ const Header = () => {
   
               <li>
                 <Link to="/" className="no-underline black">
-                  new
+                  Mostrar-Equipo
                 </Link>
               </li>
                     
               <li>
                 <Link to="/create" className="no-underline black" >
-                  add
+                  Agregar-Equipo
                 </Link>
               </li>
             </ul>
