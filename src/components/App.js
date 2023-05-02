@@ -5,7 +5,7 @@ import Header from './Header';
 import LinkList from './LinkList';
 import CreateLink from './createLink';
 import { Route, Routes } from 'react-router-dom';
-import {Informacion, Imagen, Alumno}  from "./Inicio";
+import {Imagen, Alumno}  from "./Inicio";
 
 function App() {
   return (
