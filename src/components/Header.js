@@ -56,22 +56,22 @@ const Header = () => {
 
             <li>
               <Link to="/imageniaedit" className="no-underline black" >
-                chat
+                {t("chat")}
               </Link>
             </li>
             <li>
               <Link to="/emojis" className="no-underline black" >
-                emojis
+                {t("emojis")}
               </Link>
             </li>
             <li>
               <Link to="/traductor" className="no-underline black" >
-                traductor
+                {t("traductor")}
               </Link>
             </li>
             <li>
               <Link to="/list" className="no-underline black" >
-                lista
+                {t("lista")}
               </Link>
             </li>
           

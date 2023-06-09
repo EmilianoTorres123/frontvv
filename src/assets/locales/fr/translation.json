@@ -10,6 +10,10 @@
     "Text-davinci-003": "texte-davinci-003",
     "imagenia": "image",
     "search": "chercher",
-    "login": "conexion"
+    "login": "conexion",
+    "chat": "conversation",
+    "emojis": "réactions",
+    "traductor": "traducteur",
+    "lista": "liste"
 }
    

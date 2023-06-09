@@ -10,6 +10,11 @@
     "Text-davinci-003": "Text-davinci-003",
     "imagenia": "image",
     "search": "search",
-    "login": "login"
+    "login": "login",
+    "chat": "chat",
+    "emojis": "emojis",
+    "traductor": "translator",
+    "lista": "list"
+
 }
    
