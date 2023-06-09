@@ -4,7 +4,7 @@ class Serviceimg {
 
   async getimg(data) {
     const configuration = new Configuration({
-        apiKey: "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",
+        apiKey: "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",
       });
     const openai = new OpenAIApi(configuration);
     if (!configuration.apiKey) {
@@ -82,4 +82,5 @@ class Serviceimg {
     
 }
 
-export default new Serviceimg();
+const instance = new Serviceimg();
+export default instance;
