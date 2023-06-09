@@ -52,7 +52,7 @@ export default function ImgIA() {
           <input type="submit" value="Generate names" />
 
         </form>
-        <img src={result} alt="Image"></img>
+        <img src={result} alt="Result of the analysis"></img>
       </main>
     </div>
   );

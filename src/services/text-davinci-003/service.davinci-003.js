@@ -4,7 +4,7 @@ class ServiceDavinci003 {
 
   async getDaVinci(data) {
     const configuration = new Configuration({
-        apikey: "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",
+        apikey: "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",
       });
     const openai = new OpenAIApi(configuration);
     console.log(configuration);
@@ -104,4 +104,5 @@ class ServiceDavinci003 {
     }
 }
 
-export default new ServiceDavinci003();
+const instance = new ServiceDavinci003();
+export default instance;
