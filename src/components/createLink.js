@@ -13,9 +13,9 @@ const CREATE_LINK_MUTATION = gql`
     $liga: String!,
     $pais: String!,
     $numerojuga: Int!,
-    $presidente: String!
+    $presidente: String!,
   ) {
-    createEquipo(nombre: $nombre, trofeos: $trofeos, trofeosinte: $trofeosinte, trofeosloca: $trofeosloca, continente: $continente, fundacion: $fundacion, liga: $liga, pais: $pais, numerojuga: $numerojuga, presidente: $presidente ) {
+    createEquipo(nombre: $nombre, trofeos: $trofeos, trofeosinte: $trofeosinte, trofeosloca: $trofeosloca, continente: $continente, fundacion: $fundacion, liga: $liga, pais: $pais, numerojuga: $numerojuga, presidente: $presidente, ) {
       id
       nombre
       trofeos
